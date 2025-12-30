@@ -1,0 +1,113 @@
+# ============================================
+# Python (Backend)
+# ============================================
+
+# Python 生成的檔案
+__pycache__/
+backend/__pycache__/
+*.py[oc]
+wheels/
+*.egg-info
+
+# Python 虛擬環境
+.venv
+backend/.venv
+venv/
+env/
+.python-version
+
+# Python 編譯輸出
+backend/build/
+backend/dist/
+
+# ============================================
+# Node.js / JavaScript (Frontend)
+# ============================================
+
+# Node.js 套件資料夾
+node_modules/
+frontend/node_modules/
+
+# 編譯輸出
+dist/
+frontend/dist/
+frontend/dist-ssr/
+build/
+*.tsbuildinfo
+
+# 日誌檔案
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================
+# 環境變數檔案
+# ============================================
+
+.env
+.env.local
+.env.*.local
+*.local
+
+# ============================================
+# 編輯器 / IDE
+# ============================================
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains IDEs
+.idea/
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+*.sw?
+
+# Other editors
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ============================================
+# 作業系統
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ============================================
+# 測試與覆蓋率
+# ============================================
+
+coverage/
+.coverage
+*.cover
+.pytest_cache/
+.nyc_output/
+
+# ============================================
+# 其他
+# ============================================
+
+# 暫存檔案
+*.tmp
+*.temp
