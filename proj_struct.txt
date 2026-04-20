@@ -1,0 +1,40 @@
+workspace/
+├── .cursor/
+│   └── rules/
+│       ├── backend-rule.mdc（後端開發流程與工具規範）
+│       ├── commit-rule.mdc（Git 提交訊息格式規範）
+│       └── frontend-rule.mdc（前端開發技術與限制規範）
+├── backend/
+│   ├── main.py（後端程式主入口與啟動點）
+│   ├── pyproject.toml（Python 專案設定與依賴清單）
+│   └── README.md（後端模組使用與說明文件）
+├── docs/
+│   ├── prd/
+│   │   ├── agent-a.md（Agent A 需求與任務定義）
+│   │   ├── agent-b.md（Agent B 需求與任務定義）
+│   │   ├── global.md（專案全域產品需求說明）
+│   │   └── p0-ui-shell.md（P0 介面框架需求規格）
+│   └── spec/
+│       └── technical-spec.md（系統技術規格與實作細節）
+├── frontend/
+│   ├── src/
+│   │   ├── App.css（主應用元件樣式設定檔）
+│   │   ├── App.tsx（前端主畫面與互動邏輯）
+│   │   ├── index.css（全域基礎樣式與重置設定）
+│   │   ├── main.tsx（前端程式進入點與掛載流程）
+│   │   ├── sampleDeck.ts（範例卡片資料來源檔案）
+│   │   └── types.ts（前端資料型別定義集合）
+│   ├── index.html（Vite 應用 HTML 模板）
+│   ├── package-lock.json（npm 依賴版本鎖定檔）
+│   ├── package.json（前端套件與腳本設定檔）
+│   ├── README.md（前端模組使用與說明文件）
+│   ├── tsconfig.json（TypeScript 編譯設定檔）
+│   ├── tsconfig.node.json（Node 端 TS 設定檔）
+│   ├── vite.config.d.ts（Vite 設定型別宣告檔）
+│   ├── vite.config.js（Vite JavaScript 設定檔）
+│   └── vite.config.ts（Vite TypeScript 設定檔）
+├── .gitignore（Git 忽略追蹤檔案清單）
+├── README.md（專案整體說明與啟動指南）
+├── try.txt（臨時測試用文字檔）
+├── try2.txt（臨時測試用文字檔二）
+└── zztest.txt（額外測試內容記錄檔）
