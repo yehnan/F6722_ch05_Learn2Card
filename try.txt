@@ -1,0 +1,4 @@
+一些測試用，無關緊要的文字。
+測試Cursor會否以commit-rule Rule來產生commit message.
+
+
