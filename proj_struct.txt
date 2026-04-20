@@ -1,0 +1,40 @@
+workspace/
+├── .cursor/
+│   └── rules/
+│       ├── backend-rule.mdc
+│       ├── commit-rule.mdc
+│       └── frontend-rule.mdc
+├── backend/
+│   ├── main.py
+│   ├── pyproject.toml
+│   └── README.md
+├── docs/
+│   ├── prd/
+│   │   ├── agent-a.md
+│   │   ├── agent-b.md
+│   │   ├── global.md
+│   │   └── p0-ui-shell.md
+│   └── spec/
+│       └── technical-spec.md
+├── frontend/
+│   ├── src/
+│   │   ├── App.css
+│   │   ├── App.tsx
+│   │   ├── index.css
+│   │   ├── main.tsx
+│   │   ├── sampleDeck.ts
+│   │   └── types.ts
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
+│   ├── tsconfig.json
+│   ├── tsconfig.node.json
+│   ├── vite.config.d.ts
+│   ├── vite.config.js
+│   └── vite.config.ts
+├── .gitignore
+├── README.md
+├── try.txt
+├── try2.txt
+└── zztest.txt
