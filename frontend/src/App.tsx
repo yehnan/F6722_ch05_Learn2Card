@@ -135,7 +135,12 @@ const parseDeck = (data: unknown): Deck => {
     throw new Error("deck.json 的 cardCount 與 cards 數量不一致。");
   }
 
-  return data as Deck;
+  return {
+    paragraphs: paragraphs as Deck["paragraphs"],
+    topics: topics as Deck["topics"],
+    cards: cards as Deck["cards"],
+    stats: stats as unknown as Deck["stats"],
+  };
 };
 
 const App = () => {
